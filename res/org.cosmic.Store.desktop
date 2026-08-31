@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Cosmic Store
+Comment=Install apps for Zainium OS (Alpine + Void musl)
+# Zainium OS path — no /usr/bin
+Exec=/overlayer/syshub/bin/cosmic-store %u
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=org.cosmic.Store
+Categories=Zainium;System;PackageManager;
+Keywords=App;Store;Software;Package;Alpine;Void;musl;Zainium;
+MimeType=x-scheme-handler/appstream;
+X-Zainium-Vendor=Zainiumdynamics
+X-Zainium-Website=https://zainiumdynamics.tech

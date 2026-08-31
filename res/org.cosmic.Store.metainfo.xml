@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+  Copyright (c) 2026 Zainiumdynamics. All rights reserved.
+  Designed for Zainium OS by Zainiumdynamics — https://zainiumdynamics.tech
+-->
+<component type="desktop-application">
+  <id>org.cosmic.Store</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  <project_group>Zainium</project_group>
+  <developer_name>Zainiumdynamics</developer_name>
+  <update_contact>https://zainiumdynamics.tech</update_contact>
+  <url type="homepage">https://zainiumdynamics.tech</url>
+  <url type="bugtracker">https://zainiumdynamics.tech</url>
+  <name>Cosmic Store</name>
+  <summary>App store for Zainium OS — Alpine and Void musl packages</summary>
+  <description>
+    <p>
+      Cosmic Store installs software into /overlayer/zexlib/union using
+      Alpine Linux musl (default) and Void Linux musl repositories.
+      No Flatpak, PackageKit, or foreign package managers are required on the OS.
+    </p>
+    <p>
+      Copyright (c) 2026 Zainiumdynamics. All rights reserved.
+      Website: https://zainiumdynamics.tech
+    </p>
+  </description>
+  <keywords>
+    <keyword>Store</keyword>
+    <keyword>Package</keyword>
+    <keyword>Alpine</keyword>
+    <keyword>Void</keyword>
+    <keyword>musl</keyword>
+    <keyword>Zainium</keyword>
+  </keywords>
+  <launchable type="desktop-id">org.cosmic.Store.desktop</launchable>
+  <provides>
+    <id>tech.zainiumdynamics.Application</id>
+    <binaries>
+      <binary>cosmic-store</binary>
+    </binaries>
+  </provides>
+  <categories>
+    <category>System</category>
+    <category>PackageManager</category>
+  </categories>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="1.2.0" date="2026-07-15">
+      <description>
+        <p>Alpine + Void musl only — Flatpak and KISS removed; zexlib install.</p>
+      </description>
+    </release>
+  </releases>
+</component>
