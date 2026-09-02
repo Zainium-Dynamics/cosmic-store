@@ -1,5 +1,5 @@
 name := 'cosmic-store'
-export APPID := 'com.system76.CosmicStore'
+export APPID := 'org.cosmic.Store'
 
 rootdir := ''
 prefix := '/overlayer/syshub'
