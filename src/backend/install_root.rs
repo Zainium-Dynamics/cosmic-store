@@ -14,7 +14,7 @@ pub const ZEXLIB_UNION: &str = "/overlayer/zexlib/union";
 pub const ZEXLIB_REGISTRY_INSTALLED: &str = "/overlayer/zexlib/registry/installed";
 
 /// Download / stage cache.
-pub const ZEXLIB_CACHE: &str = "/overlayer/zexlib/var/cache/store";
+pub const ZEXLIB_CACHE: &str = "/overlayer/zexlib/union/var/cache/store";
 
 /// Resolve union root (allow override for host testing).
 pub fn union_root() -> PathBuf {
